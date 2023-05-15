@@ -21,49 +21,49 @@ let practicasM06 = {
             name: 'PR1',
             link: '../Proyectos/Modulo06/UF1/PR1/index.html',
             img: '../img/Modulo06/UF1/PR1/Captura.PNG',
-            description: 'Práctica 1 de la UF1 del M06'
+            description: 'Alert con Hola Mundo'
         },
         {
             name: 'PR2',
             link: '../Proyectos/Modulo06/UF1/PR2/index.html',
             img: '../img/Modulo06/UF1/PR2/Captura.PNG',
-            description: 'Práctica 2 de la UF1 del M06'
+            description: 'Alert con Hola Mundo usando variable'
         },
         {
             name: 'PR3',
             link: '../Proyectos/Modulo06/UF1/PR3/index.html',
             img: '../img/Modulo06/UF1/PR3/Captura.PNG',
-            description: 'Práctica 3 de la UF1 del M06'
+            description: 'Alert con meses del año'
         },
         {
             name: 'PR4',
             link: '../Proyectos/Modulo06/UF1/PR4/index.html',
             img: '../img/Modulo06/UF1/PR4/Captura.PNG',
-            description: 'Práctica 4 de la UF1 del M06'
+            description: 'Alert con comprobaciones'
         },
         {
             name: 'PR5',
             link: '../Proyectos/Modulo06/UF1/PR5/index.html',
             img: '../img/Modulo06/UF1/PR5/Captura.PNG',
-            description: 'Práctica 5 de la UF1 del M06'
+            description: 'Alert con comprobaciones'
         },
         {
             name: 'PR6',
             link: '../Proyectos/Modulo06/UF1/PR6/index.html',
             img: '../img/Modulo06/UF1/PR6/Captura.PNG',
-            description: 'Práctica 6 de la UF1 del M06'
+            description: 'Prompt comprobacion DNI'
         },
         {
             name: 'PR7',
             link: '../Proyectos/Modulo06/UF1/PR7/index.html',
             img: '../img/Modulo06/UF1/PR7/Captura.PNG',
-            description: 'Práctica 7 de la UF1 del M06'
+            description: 'Operaciones con prompt'
         },
         {
             name: 'PR8',
             link: '../Proyectos/Modulo06/UF1/PR8/index.html',
             img: '../img/Modulo06/UF1/PR8/Captura.PNG',
-            description: 'Práctica 8 de la UF1 del M06'
+            description: 'Operaciones con prompt'
         }
     ],
     'UF2': [
@@ -71,31 +71,31 @@ let practicasM06 = {
             name: 'PR1',
             link: '../Proyectos/Modulo06/UF2/PR1/sites/index.html',
             img: '../img/Modulo06/UF2/PR1/Captura.PNG',
-            description: 'Práctica 1 de la UF2 del M06'
+            description: 'Botones con textos ocultos, se muestran al hacer hover con Jquery'
         },
         {
             name: 'PR2',
             link: '../Proyectos/Modulo06/UF2/PR2/pages/index.html',
             img: '../img/Modulo06/UF2/PR2/Captura.PNG',
-            description: 'Práctica 2 de la UF2 del M06'
+            description: 'Cv trabajadores con informacion oculta, se muestra al hacer hover/ click con Jquery'
         },
         {
             name: 'PR3',
             link: '../Proyectos/Modulo06/UF2/PR3/sites/index.html',
             img: '../img/Modulo06/UF2/PR3/Captura.PNG',
-            description: 'Práctica 3 de la UF2 del M06'
+            description: 'Input para remarcar los elementos del dom segun clase o id con Jquery'
         },
         {
             name: 'PR4',
             link: '../Proyectos/Modulo06/UF2/PR4/pages/index.html',
             img: '../img/Modulo06/UF2/PR4/Captura.PNG',
-            description: 'Práctica 4 de la UF2 del M06'
+            description: 'Textareas con contador de caracteres con Jquery'
         },
         {
             name: 'PR5',
             link: '../Proyectos/Modulo06/UF2/PR5/pages/index.html',
             img: '../img/Modulo06/UF2/PR5/Captura.PNG',
-            description: 'Práctica 5 de la UF2 del M06'
+            description: 'Modal formulario con Jquery'
         }
     ],
     'UF3': [
@@ -103,49 +103,49 @@ let practicasM06 = {
             name: 'PR1',
             link: '../Proyectos/Modulo06/UF3/PR1/ejercicio11.html',
             img: '../img/Modulo06/UF3/PR1/Captura.PNG',
-            description: 'Práctica 1 de la UF3 del M06'
+            description: 'Recorrido de DOM y consolelog con los el resultado de la busqueda'
         },
         {
             name: 'PR2',
             link: '../Proyectos/Modulo06/UF3/PR2/ejercicio12.html',
             img: '../img/Modulo06/UF3/PR2/Captura.PNG',
-            description: 'Práctica 2 de la UF3 del M06'
+            description: 'Mostrar y ocultar elementos del DOM con click'
         },
         {
             name: 'PR3',
             link: '../Proyectos/Modulo06/UF3/PR3/ejercicio13.html',
             img: '../img/Modulo06/UF3/PR3/Captura.PNG',
-            description: 'Práctica 3 de la UF3 del M06'
+            description: 'Añadir nuevos elementos a la lista al hacer click en añadir'
         },
         {
             name: 'PR4',
             link: '../Proyectos/Modulo06/UF3/PR4/ejercicio14.html',
             img: '../img/Modulo06/UF3/PR4/Captura.PNG',
-            description: 'Práctica 4 de la UF3 del M06'
+            description: 'Mostrar y ocultar elementos del DOM con click'
         },
         {
             name: 'PR5',
             link: '../Proyectos/Modulo06/UF3/PR5/ejercicio15.html',
             img: '../img/Modulo06/UF3/PR5/Captura.PNG',
-            description: 'Práctica 5 de la UF3 del M06'
+            description: 'Muestra de posiciones (X,Y) del raton con evento mousemove'
         },
         {
             name: 'PR6',
             link: '../Proyectos/Modulo06/UF3/PR6/ejercicio16.html',
             img: '../img/Modulo06/UF3/PR6/Captura.PNG',
-            description: 'Práctica 6 de la UF3 del M06'
+            description: 'Muestra de posiciones (Arriba,Abajo,Derecha,Izquierda) del raton con evento mousemove'
         },
         {
             name: 'PR7',
             link: '../Proyectos/Modulo06/UF3/PR7/index.html',
             img: '../img/Modulo06/UF3/PR7/Captura.PNG',
-            description: 'Práctica 7 de la UF3 del M06'
+            description: 'Juego de la vida'
         },
         {
             name: 'PR8',
             link: '../Proyectos/Modulo06/UF3/PR8/sites/index.html',
             img: '../img/Modulo06/UF3/PR8/Captura.PNG',
-            description: 'Práctica 8 de la UF3 del M06'
+            description: 'Juego del amazonas'
         },
     ],
     'UF4': [
@@ -153,7 +153,7 @@ let practicasM06 = {
             name: 'PR1',
             video: '../Proyectos/Modulo06/UF4/Video.mp4',
             img: '../img/Modulo06/UF4/PR1/Captura.PNG',
-            description: 'Práctica 1 de la UF4 del M06'
+            description: 'Web hecha con nodejs y express, con llamadas asíncronas a la bbdd'
         }
     ]
 }
@@ -164,49 +164,49 @@ let practicasM09 = {
             name: 'PR1',
             link: '../Proyectos/Modulo09/UF1/PR1/index.html',
             img: '../img/Modulo09/UF1/PR1/Captura.PNG',
-            description: 'Práctica 1 de la UF1 del M09'
+            description: 'Primer ejercicio con HTML y CSS, links, divs, tables etc...'
         },
         {
             name: 'PR2',
             link: '../Proyectos/Modulo09/UF1/PR2/index.html',
             img: '../img/Modulo09/UF1/PR2/Captura.PNG',
-            description: 'Práctica 2 de la UF1 del M09'
+            description: 'Formulario con HTML y CSS'
         },
         {
             name: 'PR3',
             link: '../Proyectos/Modulo09/UF1/PR3/index.html',
             img: '../img/Modulo09/UF1/PR3/Captura.PNG',
-            description: 'Práctica 3 de la UF1 del M09'
+            description: 'Pagina de blog con HTML y CSS'
         },
         {
             name: 'PR4',
             link: '../Proyectos/Modulo09/UF1/PR4/index.html',
             img: '../img/Modulo09/UF1/PR4/Captura.PNG',
-            description: 'Práctica 4 de la UF1 del M09'
+            description: 'Curriculum con HTML y CSS'
         },
         {
             name: 'PR5',
             link: '../Proyectos/Modulo09/UF1/PR5/index.html',
             img: '../img/Modulo09/UF1/PR5/Captura.PNG',
-            description: 'Práctica 5 de la UF1 del M09'
+            description: 'Galeria de imagenes con HTML y CSS'
         },
         {
             name: 'PR6',
             link: '../Proyectos/Modulo09/UF1/PR6/index.html',
             img: '../img/Modulo09/UF1/PR6/Captura.PNG',
-            description: 'Práctica 6 de la UF1 del M09'
+            description: 'Página con navegación de menu circular con HTML y CSS'
         },
         {
             name: 'PR7',
             link: '../Proyectos/Modulo09/UF1/PR7/index.html',
             img: '../img/Modulo09/UF1/PR7/Captura.PNG',
-            description: 'Práctica 7 de la UF1 del M09'
+            description: 'Página con columnas e información con HTML y CSS'
         },
         {
             name: 'PR8',
             link: '../Proyectos/Modulo09/UF1/PR8/index.html',
             img: '../img/Modulo09/UF1/PR8/Captura.PNG',
-            description: 'Práctica 8 de la UF1 del M09'
+            description: 'Página de noticias con HTML y CSS'
         }
     ],
 
@@ -215,43 +215,43 @@ let practicasM09 = {
             name: 'PR1',
             link: '../Proyectos/Modulo09/UF2/PR1/index.html',
             img: '../img/Modulo09/UF2/PR1/Captura.PNG',
-            description: 'Práctica 1 de la UF2 del M09'
+            description: 'Canvas con rectangulos '
         },
         {
             name: 'PR2',
             link: '../Proyectos/Modulo09/UF2/PR2/index.html',
             img: '../img/Modulo09/UF2/PR2/Captura.PNG',
-            description: 'Práctica 2 de la UF2 del M09'
+            description: 'Canvas con figuras a base de rectangulos'
         },
         {
             name: 'PR3',
             link: '../Proyectos/Modulo09/UF2/PR3/index.html',
             img: '../img/Modulo09/UF2/PR3/Captura.PNG',
-            description: 'Práctica 3 de la UF2 del M09'
+            description: 'Canvas con figuras a partir de lineas'
         },
         {
             name: 'PR4',
             link: '../Proyectos/Modulo09/UF2/PR4/index.html',
             img: '../img/Modulo09/UF2/PR4/Captura.PNG',
-            description: 'Práctica 4 de la UF2 del M09'
+            description: 'Canvas con figuras a partir de lineas'
         },
         {
             name: 'PR5',
             link: '../Proyectos/Modulo09/UF2/PR5/index.html',
             img: '../img/Modulo09/UF2/PR5/Captura.PNG',
-            description: 'Práctica 5 de la UF2 del M09'
+            description: 'Canvas con figuras circulares'
         },
         {
             name: 'PR6',
             link: '../Proyectos/Modulo09/UF2/PR6/views/index.html',
             img: '../img/Modulo09/UF2/PR6/Captura.PNG',
-            description: 'Práctica 6 de la UF2 del M09'
+            description: 'Página con contenidos multimedia'
         },
         {
             name: 'PR7',
             link: '../Proyectos/Modulo09/UF2/PR7/index.html',
             img: '../img/Modulo09/UF2/PR7/Captura.PNG',
-            description: 'Práctica 7 de la UF2 del M09'
+            description: 'Canvas con creación de imagenes'
         }
     ]
 }
