@@ -1,0 +1,50 @@
+body {
+    z-index: 0;
+}
+
+.modal {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 1rem 5rem;
+    background-color: lightgray;
+    border: 3px solid black;
+    flex-wrap: wrap;
+}
+
+.backgroundModal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(156, 156, 156, 0.87);
+
+}
+
+.datosUsuario {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.datosUsuario a {
+    padding: 5px;
+    background-color: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.datosUsuario form {
+    text-align: center;
+}
+
+.hideScroll {
+    overflow: hidden;
+    height: 100vh;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ejercicio 15 - Informaci�n sobre eventos</title>
+
+    <style type="text/css">
+      body {
+        font-family: arial, helvetica;
+      }
+
+      #info {
+        width: 100%;
+        border: thin solid silver;
+        padding: 0.5em;
+        position: fixed;
+      }
+
+      #info h1 {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="info"></div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <script type="text/javascript">
+      let cursor = document.body.addEventListener(
+        "mousemove",
+        recogerInformacion
+      );
+      let teclas = document.body.addEventListener("keyup", recogerInformacion);
+      let ratonpulsado = document.body.addEventListener(
+        "click",
+        recogerInformacion
+      );
+
+      function muestraInformacion(mensaje) {
+        let info = document.getElementById("info");
+        info.innerHTML = "<h1>" + mensaje[0] + "</h1> <br>";
+        for (var i = 1; i < mensaje.length - 1; i++) {
+          document.getElementById("info").innerHTML +=
+            "<p>" + mensaje[i] + "</p>";
+        }
+        info.style.backgroundColor = mensaje[mensaje.length - 1];
+      }
+
+      function recogerInformacion(e) {
+        let mensaje = [];
+        mensaje.push("Nuevo Movimiento " + e.type);
+        let container = document.getElementById("info");
+
+        if (e.type == "mousemove") {
+          mensaje.push(
+            "Posicion del puntero respecto del navegador: X:" +
+              e.clientX +
+              " Y: " +
+              e.clientY
+          );
+          mensaje.push(
+            "Posicion del puntero respecto a la pagina: X:" +
+              e.pageX +
+              " Y: " +
+              e.pageY
+          );
+          mensaje.push(
+            "Posicion del puntero respecto a la pantalla: X:" +
+              e.screenX +
+              " Y: " +
+              e.screenY
+          );
+          mensaje.push("white");
+        } else if (e.type == "click") {
+          mensaje.push("#FFFFCC");
+        } else {
+          mensaje.push("Tecla pulsada: " + e.key);
+          mensaje.push("Codigo de la tecla: " + e.keyCode);
+          mensaje.push("Control pulsado: " + e.ctrlKey);
+          mensaje.push("#CCE6FF");
+        }
+        muestraInformacion(mensaje);
+        return false;
+      }
+    </script>
+  </body>
+</html>

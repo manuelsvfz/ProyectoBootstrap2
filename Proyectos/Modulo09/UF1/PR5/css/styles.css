@@ -1,0 +1,262 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(61, 61, 61);
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.contenedor{
+    width: 50%;
+}
+.contenedordefotos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+    background-color: gray;
+    border: 3px solid white;
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    margin: 0px 50px;
+}
+
+.titulofoto{
+    color: yellow;
+    font-size: 15px;
+    margin: 5px 50px;
+}
+
+.contenedornombre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: gray;
+    border: 5px solid white;
+    height: 100px;
+    width: 300px;
+    margin: 0px 50px;
+    margin-bottom: 0px;
+    padding: 50px;
+}
+
+
+img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: 10px 10px;
+    transition: 0.5s ease-in-out;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+figcaption{
+    position: fixed;
+    bottom: 200px;
+    left: 210px;
+    color: white;
+    opacity: 0%;
+    transition: 0.5s;
+}
+
+a:focus figcaption{
+    opacity: 100%;
+}
+
+
+a:focus .horizontal1{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(600px,150px);
+}
+
+
+a:focus .horizontal2{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(500px,150px);
+}
+
+a:focus .horizontal3{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(400px,150px);
+}
+
+a:focus .horizontal4{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(500px,100px);
+}
+a:focus .horizontal5{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(400px,100px);
+}
+a:focus .horizontal6{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(600px,50px);
+}
+a:focus .horizontal7{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(500px,50px);
+}
+a:focus .horizontal8{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(400px,50px);
+}
+a:focus .horizontal9{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(600px,0px);
+}
+a:focus .horizontal10{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(400px,0px);
+}
+a:focus .horizontal11{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(600px,-50px);
+}
+a:focus .horizontal12{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(500px,-50px);
+}
+
+a:focus .horizontal13{
+    z-index: 20;
+    width: 300px;
+    height: 100px;
+    transform: translate(400px,-50px);
+}
+
+a:focus .vertical1{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(550px,0px);
+}
+
+a:focus .vertical2{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(400px,0px);
+}
+
+a:focus .vertical3{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(600px,-50px);
+}
+
+a:focus .vertical4{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(500px,-50px);
+}
+
+
+a:focus .vertical5{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(400px,-50px);
+}
+
+
+a:focus .vertical6{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(550px,-100px);
+}
+
+a:focus .vertical7{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(450px,-100px);
+}
+
+
+a:focus .vertical8{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(600px,-150px);
+}
+
+
+a:focus .vertical9{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(500px,-150px);
+}
+
+a:focus .vertical10{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(400px,-150px);
+}
+
+a:focus .vertical11{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    transform: translate(550px,-250px);
+}
+
+a:focus .vertical12{
+    z-index: 20;
+    width: 300px;
+    height: 500px;
+    
+    transform: translate(450px,-250px);
+}
+
+img:hover{
+    height: 50px;
+    width: 50px;
+}
+
+

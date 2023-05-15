@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+button a {
+    width: 100%;
+}
+
+button {
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1rem;
+    background-color: white;
+    border: none;
+    cursor: progress;
+    margin: 1rem;
+}
+
+.prueba {
+    background-color: red;
+    color: yellowgreen;
+}
+
+.pares {
+    color: red;
+    font-size: larger;
+}
+
+.impares {
+    color: blue;
+    font-size: larger;
+}

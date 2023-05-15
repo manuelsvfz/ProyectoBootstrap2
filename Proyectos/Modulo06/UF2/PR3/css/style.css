@@ -1,0 +1,31 @@
+.rojo {
+    color: red;
+}
+
+.verde {
+    color: lime;
+}
+
+.azul {
+    color: blue;
+}
+
+.importante {
+    background-color: blueviolet !important;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    color: yellow;
+}
+
+.fondogris {
+    background-color: gray;
+}
+
+#div2 {
+    font-weight: 900;
+}
+
+#p2 {
+    font-style: italic;
+}

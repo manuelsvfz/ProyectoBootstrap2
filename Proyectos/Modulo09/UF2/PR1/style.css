@@ -1,0 +1,17 @@
+canvas {
+    border: 1px solid black;
+    color: yellow;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(83, 83, 83);
+    justify-content: start;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}

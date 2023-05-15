@@ -1,0 +1,78 @@
+#triangulo{
+    width: 0;
+    height: 0;
+    border-top: 10px solid blue;
+    border-right: 8px solid transparent;
+}
+#cuadrado{
+    padding-bottom: 6px;
+    width: 20px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 2px;
+    text-align: center;
+  text-decoration:underline;
+    color: white;
+}
+h1{
+    font-size: 2.0rem;
+    color: rgb(62, 62, 110);
+    margin-top: 2px;
+    padding-top: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+h4{
+    margin-top: 4px;
+    padding-top: 4px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.amarillo{
+    margin-top: 5px;
+    color: rgb(233, 142, 22);
+    font-size:0.69rem;
+    text-align: left;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+.titulo{
+    border-top: 1px solid rgb(233, 184, 22);
+    border-bottom: 1px solid rgb(233, 184, 22);
+    color: rgb(233, 184, 22);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+.informativo{
+    font-size: 0.69rem;
+    margin-top: 4px;
+    padding-top: 4px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+ol li{
+    list-style: none;
+    counter-increment: list;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+ol{
+    padding-left: 0%;
+    margin-left: 0%;
+}
+li{
+    padding-left: 0%;
+    margin-left: 0%;
+}
+ol li::before{
+    color: black;
+    content: counter(list) ".-";
+}

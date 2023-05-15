@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+figure figcaption {
+    text-align: center;
+    padding: 10px;
+    transition: 1s;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: start;
+    width: 200px;
+}
+
+figure {
+    height: 350px;
+    width: 300px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 800px;
+    margin: auto auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cv {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #202123;
+    color: white;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.cv h1 {
+    width: 100%;
+}
+
+.cv p {
+    width: 100%;
+}
+
+.cv button {
+    height: 5rem;
+    width: 15rem;
+    cursor: pointer;
+}
+
+/*
+.cv button {
+    margin: 10rem 0rem;
+}*/

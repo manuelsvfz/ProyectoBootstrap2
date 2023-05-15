@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-light {
+    background-color: rgb(180, 180, 180);
+}
+
+.text-bg-light {
+    color: rgb(180, 180, 180);
+}
+
+.container-fluid {
+    margin-top: 10rem !important;
+}
+
+.mainTitle {
+    font-size: 8rem;
+}
+
+.bg-light {
+    background-color: #f6f7f8;
+}
+
+.marker {
+    position: relative;
+    border-radius: 10px;
+    height: 0.5rem;
+    width: 4rem;
+    background-color: white;
+    transition: 0.6s;
+    top: 0;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: none;
+}
+
+#Theme {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+}
+
+#changeTheme {
+    transition: 0.6s;
+}
+
+i {
+    cursor: pointer;
+}
+
+span {
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+}

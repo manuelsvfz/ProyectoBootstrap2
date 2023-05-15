@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.principal{
+    width: 65%;
+    text-align: center;
+}
+
+.datospersonales{
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+
+    padding-right: 600px;
+}
+
+h1{
+    width: 100%;
+    margin: 10px;
+}
+
+dl{
+    margin:50px;
+    margin-left: 0px;
+}
+dt{
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+nav{
+    width: 35%;
+    height: 100vh ;
+    position: fixed;
+    top: 1%;
+    right: 0%;
+    border-left: 5px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li{
+    list-style: none;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}

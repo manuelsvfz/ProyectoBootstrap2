@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.options{
+    width: 100%;
+}
+
+h1{
+    width: 100%;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0px;
+}
+.row div {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.viva{
+    width: 20px;
+    height: 20px;
+    background-color: lime !important;
+    border: 1px solid black !important;
+}
+
+.timer{
+    font-size: larger;
+    font-weight: bold;
+    width: 40%; 
+    text-align: center;
+}
+

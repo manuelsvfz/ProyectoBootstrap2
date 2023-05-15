@@ -1,0 +1,35 @@
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  table{
+      width: 100%;
+  }
+  div{
+    border-radius: 15px;
+  }
+  .cajon1{
+      background-color: red;
+      width: 500px;
+      height: 500px;
+  }
+  .cajon2{
+      background-color: blue;
+      width: 450px;
+      height: 450px;
+  }
+  .cajon3{
+      background-color: green;
+      width: 400px;
+      height: 400px;
+  }
+  .cajon4{
+      background-color: yellow;
+      width: 350px;
+      height: 350px;
+  }
+  .cajon5{
+      background-color: rgb(255, 81, 0);
+      width: 300px;
+      height: 300px;
+  }

@@ -1,0 +1,61 @@
+body{
+    background-color: lightblue;
+}
+
+header{
+    margin-bottom: 100px;
+}
+.imagenindex{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: -1;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    
+}
+
+
+.verde{
+    width: 25%;
+    height: 500px;
+    overflow-y: scroll;
+    background-color:lightgreen;
+    font-family: sans-serif;
+}
+
+.amarillo{
+    width: 25%;
+    height: 500px;
+    overflow-y: scroll;
+    background-color:lightyellow;
+    font-family: serif;
+}
+
+.rosa{
+    width: 25%;
+    height: 500px;
+    overflow-y: scroll;
+    background-color:lightcoral;
+    font-family: monospace;
+}
+
+.marron{
+    width: 25%;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: brown;
+    font-family: fantasy;
+}
+
+footer{
+    margin-top: 1rem;
+    text-align: right;
+}
+h5{
+    font-weight: 10;
+}
